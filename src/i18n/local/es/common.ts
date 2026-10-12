@@ -260,7 +260,7 @@ export default {
     contact: "Contacto",
     rights: "Todos los derechos reservados.",
     emergency: "La atención virtual no sustituye servicios de emergencia. En una emergencia llama al 911.",
-    adminLink: "Acceso profesionales",
+    adminLink: "Admin",
   },
   admin: {
     login: {

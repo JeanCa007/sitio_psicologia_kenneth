@@ -260,7 +260,7 @@ export default {
     contact: "Contact",
     rights: "All rights reserved.",
     emergency: "Online care does not replace emergency services. In an emergency, call 911.",
-    adminLink: "Professionals access",
+    adminLink: "Admin",
   },
   admin: {
     login: {

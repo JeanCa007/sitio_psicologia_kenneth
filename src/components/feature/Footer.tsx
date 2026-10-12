@@ -111,12 +111,16 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-background-50/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-background-400">
+        <div className="mt-10 pt-6 border-t border-background-50/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-background-400">
           <p>
             © {new Date().getFullYear()} {identity.brand}. {t("footer.rights")}
           </p>
-          <Link to="/admin/login" className="hover:text-accent-300 cursor-pointer">
-            {t("footer.adminLink")}
+          <Link
+            to="/admin/login"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-md border border-background-50/20 text-background-200 text-xs font-medium hover:bg-accent-500 hover:text-primary-950 hover:border-accent-500 cursor-pointer transition-colors whitespace-nowrap"
+          >
+            <i className="ri-lock-line text-sm" />
+            <span>{t("footer.adminLink")}</span>
           </Link>
         </div>
         <p className="mt-3 text-xs text-background-400">{t("footer.emergency")}</p>
